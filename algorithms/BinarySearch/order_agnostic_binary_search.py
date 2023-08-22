@@ -51,7 +51,6 @@ def perform_descending_search(input_list, target, start, end):
     return -1
 
 def binary_search(input_list, target):
-
     ascending = is_ascending(input_list=input_list)
     start = 0
     end = len(input_list) - 1
